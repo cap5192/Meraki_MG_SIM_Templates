@@ -1,0 +1,37 @@
+[
+  {
+    "slot": "sim1",
+    "isPrimary": "False",
+    "apns": [
+      {
+        "name": "broadband",
+        "allowedIpTypes": [
+          "ipv4",
+          "ipv6"
+        ],
+        "authentication": {
+          "type": "pap",
+          "username": "milesmeraki"
+        }
+      }
+    ]
+  },
+  {
+    "slot": "sim2",
+    "isPrimary": "True",
+    "apns": [
+      {
+        "name": "attnetwork",
+        "allowedIpTypes": [
+          "ipv4",
+          "ipv6"
+        ],
+        "authentication": {
+          "type": "none",
+          "username": ""
+        }
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,37 @@
+[
+  {
+    "slot": "sim1",
+    "isPrimary": "True",
+    "apns": [
+      {
+        "name": "fast.tmobile.com",
+        "allowedIpTypes": [
+          "ipv4",
+          "ipv6"
+        ],
+        "authentication": {
+          "type": "pap",
+          "username": "milesmeraki"
+        }
+      }
+    ]
+  },
+  {
+    "slot": "sim2",
+    "isPrimary": "False",
+    "apns": [
+      {
+        "name": "vzwwireless",
+        "allowedIpTypes": [
+          "ipv4",
+          "ipv6"
+        ],
+        "authentication": {
+          "type": "none",
+          "username": ""
+        }
+      }
+    ]
+  }
+]
+
